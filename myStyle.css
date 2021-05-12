@@ -1,0 +1,180 @@
+    .center {
+        display: block;
+    }
+       @media only screen and (min-width : 1377px) {
+        .Marginleft{
+            margin: 0px;
+        }
+       } 
+    .h2{
+        font-size: 5vh;
+        font-weight: 700;
+        letter-spacing: -0.9px;
+        margin-bottom: 15px;
+        color: #333;
+        font-family: 'Roboto',sans-serif;
+    }
+    .Horizontal-Line{
+        width: 100%;
+        /* padding: 108px 0px 46px; */
+        border-top: 84px solid #190638;
+        /* border-bottom: 84px solid #190638; */
+    }
+    .thoughtbox{
+        height: 40vh;
+        width: 40vw;
+    }
+   .container-box{
+       height: 207vh;
+   }
+    .WordWrap{
+        text-align: center;
+    }
+     .cards{
+        align-items: center;
+    }
+    .heading-text{
+        /* width: 62vw; */
+        text-align: center;
+    }
+    .heading-text{
+        margin-top: 12vh;
+        color: #333;
+        text-align: center;
+        font-size: 4vh;
+        font-weight: 700;
+        letter-spacing: 0.0001vh;
+    }
+    .heading {
+        /* max-width: 681px; */
+        /* margin: 0px 108px; */
+        float: none;
+        padding-bottom: 23px;
+    }
+    .Marginleft{
+        margin: 0vw 12vw 0vw 15vw;
+    }
+p{
+    font-size: 2.5vh;
+    line-height: 4vh;
+    color: #333;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+.horizntal-line{
+    width:100%; 
+    size: 0vmax; 
+    color:black;
+}
+h4 {
+    font-weight: normal;
+    font-size: 2vh;
+    letter-spacing: -0.9px;
+    margin-bottom: 15px;
+    font-family: 'Roboto',sans-serif;
+  }
+  h3{
+    font-size: 2vh;
+    letter-spacing: -0.9px;
+    margin-bottom: 15px;
+    font-family: 'Roboto',sans-serif;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .firstcard{
+    background-image: url(https://www.wildermanfund.org/hubfs/Assets%202018/depression.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 4px;
+  }
+  .firstcard:hover{
+    background-image: url(https://i.stack.imgur.com/khVpE.png);
+    color: white;
+  }
+  .Secondcard{
+    background-image: url(https://www.wildermanfund.org/hubfs/175545935.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 4px;
+  }
+  .Secondcard:hover{
+    background-image: url(https://i.stack.imgur.com/khVpE.png);
+    color: white;
+  }
+
+  .thirdcard{
+    background-image: url(https://www.wildermanfund.org/hubfs/Assets%202018/shutterstock_169647155.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 4px;
+  }
+  .thirdcard:hover{
+    background-image: url(https://i.stack.imgur.com/khVpE.png);
+    color: white;
+  }
+  .fourthcard{
+    background-image: url(https://www.wildermanfund.org/hubfs/Assets%202018/shutterstock_83231545.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 4px;
+  }
+  .fourthcard:hover{
+    background-image: url(https://i.stack.imgur.com/khVpE.png);
+    color: white;
+  }
+  .fifthcard{
+    background-image: url();
+    background-size: cover;
+    background-position: center center;
+    border-radius: 4px;
+  }
+  .fifthcard:hover{
+    background-image: url(https://i.stack.imgur.com/khVpE.png);
+    color: white;
+  }
+  .sixthcard{
+    background-image: url(https://www.wildermanfund.org/hubfs/Assets%202018/176157090.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 4px;
+  }
+  .sixthcard:hover{
+    background-image: url(https://i.stack.imgur.com/khVpE.png);
+    color: white;
+  }
+  
+    .card {
+    background-color: rgba(78,232,99,0.65);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 21vw;
+    height: 25vh;
+    }
+    .column {
+        width: 31%;
+        float: left;
+        padding: 17px 13px;
+    }
+
+    .row {margin: 0 -5vw;}
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+}
